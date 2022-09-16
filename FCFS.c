@@ -1,9 +1,8 @@
 #include<stdio.h>
-main()
+int main()
 {
 int bt[20], wt[20], tat[20], i, n;
 float wtavg, tatavg;
-clrscr();
 printf("\nEnter the number of processes -- ");
 scanf("%d", &n);
 for(i=0;i<n;i++)
